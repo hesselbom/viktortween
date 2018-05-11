@@ -1,0 +1,14 @@
+{
+  "name": "viktortween",
+  "description": "Lightweight tween util with 0 dependencies",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "author": "Viktor Hesselbom <viktor@hesselbom.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup index.js --o bundle.js -f umd --name viktortween"
+  },
+  "dependencies": {
+    "rollup": "^0.58.2"
+  }
+}
