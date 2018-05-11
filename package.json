@@ -1,7 +1,7 @@
 {
   "name": "viktortween",
   "description": "Lightweight tween util with 0 dependencies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "bundle.js",
   "author": "Viktor Hesselbom <viktor@hesselbom.net>",
   "license": "MIT",
