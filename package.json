@@ -1,7 +1,7 @@
 {
   "name": "viktortween",
   "description": "Lightweight tween util with 0 dependencies",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "bundle.js",
   "author": "Viktor Hesselbom <viktor@hesselbom.net>",
   "license": "MIT",
@@ -9,10 +9,15 @@
     "type": "git",
     "url": "https://github.com/hesselbom/viktortween.git"
   },
+  "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "build": "rollup index.js --o bundle.js -f umd --name viktortween"
+    "build": "rollup -c"
   },
   "devDependencies": {
-    "rollup": "^0.58.2"
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-preset-minify": "^0.5.0",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^4.3.2"
   }
 }
